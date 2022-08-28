@@ -18,9 +18,10 @@ let estado =`
 ╰───────────────
 `.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['🔶𝙼𝙴𝙽𝚄🔶', '/menu']
-['𝙱𝙾𝚃🤖', 'bot']
+conn.sendHydrated(m.chat, estado, wm, picture, null, null, null, null, [
+['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '.menu'],
+['𝙱𝙾𝚃🤖', 'bot'],
+['𝙿𝙸𝙽𝙶🚀', 'ping'],
 ], m)}
 
 handler.help = ['estado']
