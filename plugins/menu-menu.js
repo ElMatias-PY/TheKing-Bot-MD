@@ -113,14 +113,11 @@ let str = `
 ┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
 ┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
 ┣ ඬ⃟🕹 _${usedPrefix}delttt *nombre del la sala*_
-┣ ඬ⃟🎮 _${usedPrefix}random_
 ┣ ඬ⃟🕹️ _${usedPrefix}2gay *@tag*_
 ┣ ඬ⃟🎮 _${usedPrefix}gay *@tag / nombre*_
 ┣ ඬ⃟🕹️ _${usedPrefix}lesbi *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}pajer@ *@tag / nombre*_
 ┣ ඬ⃟🕹️ _${usedPrefix}put@ *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}rata *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}manc@ *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}prostitut@ *@tag / nombre*_
 ┣ ඬ⃟🕹️ _${usedPrefix}follar *@tag / nombre*_
 ┣ ඬ⃟🕹️ _${usedPrefix}pfollar *@tag / nombre*_
@@ -141,12 +138,13 @@ let str = `
 ┣ ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-┣ ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+┣ ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*
 ┣ ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}play1 *<texto / enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}play2 *<texto / enlace / link / url>*_
 ┣ ඬ⃟📥 _${usedPrefix}play *<texto>*_
+┣ ඬ⃟📥 _${usedPrefix}soundcloud *<texto*_
 ┣ ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
 ┣ ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
 ┣ ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
@@ -173,6 +171,7 @@ let str = `
 ┣ ඬ⃟💎 _${usedPrefix}del *responder al mensaje del bot para borrarlo*_
 ┣ ඬ⃟💎 _${usedPrefix}setpp *establecer foto como perfil del grupo*_
 ┣ ඬ⃟💎 _${usedPrefix}simular *<welcome / bye / promote / demote>*_
+┣ ඬ⃟💎 _${usedPrefix}destraba
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗜𝗗𝗢𝗥𝗘𝗦/>*
@@ -255,7 +254,7 @@ let str = `
 
 ° ඬ⃟💵 _${usedPrefix}balance_
 ° ඬ⃟💵 _${usedPrefix}claim_
-° ඬ⃟💵 _${usedPrefix}top_
+° ඬ⃟💵 _${usedPrefix}lb_
 ° ඬ⃟💵 _${usedPrefix}levelup_
 ° ඬ⃟💵 _${usedPrefix}myns_
 ° ඬ⃟💵 _${usedPrefix}perfil_
@@ -291,8 +290,6 @@ let str = `
 ┣ ඬ⃟☑️ _${usedPrefix}on/off *antilink2*_
 ┣ ඬ⃟☑️ _${usedPrefix}on/off *detect*_
 ┣ ඬ⃟☑️ _${usedPrefix}on/off *audios*_
-┣ ඬ⃟☑️ _${usedPrefix}on/off *autosticker*_
-┣ ඬ⃟☑️ _${usedPrefix}on/off *antisticker*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<COMANDOS CREADOR/>*
@@ -324,6 +321,8 @@ let str = `
 ┣ ඬ⃟👑 _${usedPrefix}listprem_
 ┣ ඬ⃟👑 _${usedPrefix}añadirdiamantes *<@tag> <cantidad>*_
 ┣ ඬ⃟👑 _${usedPrefix}añadirxp *<@tag> <cantidad>*_
+┣ ඬ⃟👑 _${usedPrefix}añadirtokens *<@tag> <cantidad>*_
+┣ ඬ⃟👑 _${usedPrefix}traba1
 ┣ ඬ⃟👑 _${usedPrefix}resetuser_
 ┗━━━━━━━━━━━━━┛
 `.trim()
