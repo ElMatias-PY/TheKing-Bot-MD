@@ -1,4 +1,4 @@
-# `🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮`
+# `🧿 𝐓𝐡𝐞 𝐊𝐢𝐧𝐠 - 𝐁𝐨𝐭 🔮`
 
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
 <a href="http://wa.me/595985958156" target="blank"><img src="https://img.shields.io/badge/MATIAS_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
