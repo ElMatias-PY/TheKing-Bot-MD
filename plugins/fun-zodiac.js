@@ -2,7 +2,7 @@ let handler = (m, { usedPrefix, command, text }) => {
     if (!text) throw `Ejemplo:\n${usedPrefix + command} 2003 02 25`
 
     const date = new Date(text)
-    if (date == 'Fecha invalida, prueba con el siguiente formato AAAA MM DD Ejemplo: 2000 01 01') throw date
+    if (date == '*Fecha invalida, prueba con el siguiente formato AAAA MM DD Ejemplo:* *2008 05 06*') throw date
     const d = new Date()
     const [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
     const birth = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
@@ -15,8 +15,8 @@ let handler = (m, { usedPrefix, command, text }) => {
     const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños 🥳` : age
 
     const teks = `
- Edad : ${cekusia}
- Signo zodical : ${zodiac}
+*Edad : *${cekusia}
+*Signo zodical:* ${zodiac}
 `.trim()
     m.reply(teks)
 }

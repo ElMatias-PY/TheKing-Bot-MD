@@ -14,31 +14,23 @@ let str = `
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟⚒️ _${usedPrefix}tag *número*_
-┣ ඬ⃟⚒️ _${usedPrefix}say *texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}tiempo *sitio*_
-┣ ඬ⃟⚒️ _${usedPrefix}años *responder a foto*_
-┣ ඬ⃟⚒️ _${usedPrefix}qmusicaes *responder audio/video*_
-┣ ඬ⃟⚒️ _${usedPrefix}leerimagen *responder imagen*_
-┣ ඬ⃟⚒️ _${usedPrefix}repetir *texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}repetir2 *texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}spamchat *texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}spamchat *numero*|*texto*|*n° de veces*_
-┣ ඬ⃟⚒️ _${usedPrefix}traducir *texto*/ *responder mensaje*_
-┣ ඬ⃟⚒️ _${usedPrefix}reaccionar *emoji* *responder mensaje*_
-┣ ඬ⃟⚒️ _${usedPrefix}leermas *texto*|*texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}rdvo *responder a viewonce*_
-┣ ඬ⃟⚒️ _${usedPrefix}fake *msg del bot* *@user* *msg fake*_
-┣ ඬ⃟⚒️ _${usedPrefix}acortar *link*_
-┣ ඬ⃟⚒️ _${usedPrefix}calc_
-┣ ඬ⃟⚒️ _${usedPrefix}del *borrar mensaje del bot respondiendo*_
-┣ ඬ⃟⚒️ _${usedPrefix}qrcode *texto*_
-┣ ඬ⃟⚒️ _${usedPrefix}styletext *texto*_
+┣° ඬ⃟🛠️ _${usedPrefix}afk *<motivo>*_
+┣° ඬ⃟🛠️ _${usedPrefix}ocr *<responde a imagen>*_
+┣° ඬ⃟🛠️ _${usedPrefix}acortar *<enlace / link / url>*_
+┣° ඬ⃟🛠️ _${usedPrefix}calc *<operacion math>*_
+┣° ඬ⃟🛠️ _${usedPrefix}del *<respondre a mensaje del Bot>*_
+┣° ඬ⃟🛠️ _${usedPrefix}whatmusic *<responde a un audio>*_
+┣° ඬ⃟🛠️ _${usedPrefix}qrcode *<texto>*_
+┣° ඬ⃟🛠️ _${usedPrefix}readmore *<texto1| texto2>*_
+┣° ඬ⃟🛠️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
+┣° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
+┣° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
+┣° ඬ⃟🛠️ _${usedPrefix}nowa *<numero>*_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 ['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.menu'],
+['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner'],
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
 ], m)
 }}

@@ -9,56 +9,50 @@ try {
 let username = await conn.getName(m.sender)
 let str = `
 *ミ💖 𝗛𝗢𝗟𝗔 _${username}_
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗧𝗢𝗣𝗦/𝗝𝗨𝗘𝗚𝗢𝗦 💖彡*
-
-┏━━━━━━━━━━━━━┓
-┃ *<𝗠𝗘𝗡𝗨 𝗧𝗢𝗣𝗦/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🎖️ _${usedPrefix}top *texto*_
-┣ ඬ⃟🎖️ _${usedPrefix}topgays_
-┣ ඬ⃟🎖️ _${usedPrefix}topguap@s_
-┣ ඬ⃟🎖️ _${usedPrefix}topput@s_
-┣ ඬ⃟🎖️ _${usedPrefix}toppajer@s_
-┣ ඬ⃟🎖️ _${usedPrefix}topotakus_
-┣ ඬ⃟🎖️ _${usedPrefix}topfe@s_
-┗━━━━━━━━━━━━━┛
+𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗧𝗢𝗣𝗦/𝗝𝗨𝗘𝗚𝗢𝗦 
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
-┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
-┣ ඬ⃟🕹 _${usedPrefix}delttt *nombre del la sala*_
-┣ ඬ⃟🎮 _${usedPrefix}multijuegos_
-┣ ඬ⃟🕹️ _${usedPrefix}random *texto*_
-┣ ඬ⃟🎮 _${usedPrefix}minovio *@tag*_
-┣ ඬ⃟🕹️ _${usedPrefix}2gay *@tag*_
-┣ ඬ⃟🎮 _${usedPrefix}gay *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}lesbi *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}pajer@ *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}put@ *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}rata *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}manc@ *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}prostitut@ *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}follar *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}pfollar *@tag / nombre*_
-┣ ඬ⃟🕹️ _${usedPrefix}ship(random)_
-┣ ඬ⃟🕹️ _${usedPrefix}ship *@tag* *@tag*_
-┣ ඬ⃟🎮 _${usedPrefix}bot *texto*_
-┣ ඬ⃟🕹️ _${usedPrefix}love *@tag / nombre*_
-┣ ඬ⃟🎮 _${usedPrefix}slot *(apuesta de xp)*_
-┣ ඬ⃟🕹 _${usedPrefix}ppt *piedra / papel / tijera*_
-┣ ඬ⃟🎮 _${usedPrefix}ñengo *suit @user*_ (ppt PvP)
-┣ ඬ⃟🕹️ _${usedPrefix}cancion *adivinar cancion*_
-┣ ඬ⃟🎮 _${usedPrefix}ñengo *adivinar cancion de ñengo*_
-┣ ඬ⃟🕹️ _${usedPrefix}pista *pista del nombre de la canción*_
-┣ ඬ⃟🎮 _${usedPrefix}acertijo_
-┣ ඬ⃟🕹️ _${usedPrefix}zodiac *AAAA MM DD*_
-┣ ඬ⃟🕹️ _${usedPrefix}cuando *texto*_
+┣° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┣° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┣° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
+┣°ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}follar @tag>_*
+┣° ඬ⃟🎖️ _${usedPrefix}pfollar @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}ship
+┣° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}pregunta *<texto>*_
+┣° ඬ⃟🎖️ _${usedPrefix}suitpvp *<@tag>*_
+┣° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
+┣° ඬ⃟🎖️ _${usedPrefix}ttt *<nombre sala>*_
+┣° ඬ⃟🎖️ _${usedPrefix}delttt_
+┣° ඬ⃟🎖️ _${usedPrefix}simi *<texto>*_
+┣° ඬ⃟🎖️ _${usedPrefix}top *<texto>*_
+┣° ඬ⃟🎖️ _${usedPrefix}topgays_
+┣° ඬ⃟🎖️ _${usedPrefix}topotakus_
+┣° ඬ⃟🎖️ _${usedPrefix}formarpareja_
+┣° ඬ⃟🎖️ _${usedPrefix}verdad_
+┣° ඬ⃟🎖️ _${usedPrefix}reto_
+┣° ඬ⃟🎖️ _${usedPrefix}cancion *adivinar nombre de la canción*_
+┣° ඬ⃟🎖️ _${usedPrefix}ñengo *adivinar nombre de la canción de ñengo*_
+┣° ඬ⃟🎖️ _${usedPrefix}pista *pista del nombre de la canción*_
+┣° ඬ⃟🎖️ _${usedPrefix}acertijo_
+┣° ඬ⃟🎖️ _${usedPrefix}zodiac *AAAA MM DD*_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 ['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.creador'],
+['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner']
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
 ], m)
 }}

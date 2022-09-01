@@ -14,21 +14,27 @@ let str = `
 ┏━━━━━━━━━━━━━┓
 ┃ *<𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}google *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}imagen *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
-┣ ඬ⃟🔍 _${usedPrefix}igstalk *<nombre de usuario>*_
-┣ ඬ⃟🔍 _${usedPrefix}igstalk2 *<nombre de usuario>*_
-┣ ඬ⃟🔍 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
-┣ ඬ⃟🔍 _${usedPrefix}sweb *link*_
+┣° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkdone *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkgoogle *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkmody *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}apkshub *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}happymod *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}hostapk *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}revdl *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}toraccino *<texto>*_
+┣° ඬ⃟🔍 _${usedPrefix}uapkpro *<texto>*_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 ['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.menu'],
+['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner']
 ['📮 𝙳𝙾𝙽𝙰𝚁📮', '.donar']
 ], m)
 }}

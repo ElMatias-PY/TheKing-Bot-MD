@@ -22,6 +22,6 @@ m.reply(`≡ *💎 𝙰𝙽̃𝙰𝙳𝙸𝙳𝙾*
 }
 handler.help = ['adddi <@user>']
 handler.tags = ['xp']
-handler.command = ['añadirdiamantes','addd','dard','dardiamantes']
+handler.command = ['añadirdiamantes','addd','dard','dardiamantes'] 
 handler.rowner = true
 export default handler
