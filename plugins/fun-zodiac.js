@@ -15,12 +15,12 @@ let handler = (m, { usedPrefix, command, text }) => {
     const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños 🥳` : age
 
     const teks = `
-*Edad : *${cekusia}
+*Edad :* ${cekusia}
 *Signo zodical:* ${zodiac}
 `.trim()
     m.reply(teks)
 }
-handler.help = ['zodiac *2002 02 25*']
+handler.help = ['zodiac *2008 05 06*']
 handler.tags = ['General']
 
 handler.command = /^zodia[kc]$/i
