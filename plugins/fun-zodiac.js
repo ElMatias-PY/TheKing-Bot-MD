@@ -1,5 +1,5 @@
 let handler = (m, { usedPrefix, command, text }) => {
-    if (!text) throw `Ejemplo:\n${usedPrefix + command} 2003 02 25`
+    if (!text) throw `Ejemplo:\n${usedPrefix + command} 2008 06 05`
 
     const date = new Date(text)
     if (date == '*Fecha invalida, prueba con el siguiente formato AAAA MM DD Ejemplo:* *2008 05 06*') throw date
@@ -12,11 +12,11 @@ let handler = (m, { usedPrefix, command, text }) => {
     const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
 
     const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-    const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños 🥳` : age
+    const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños🥳` : age
 
     const teks = `
-*Edad :* ${cekusia}
-*Signo zodical:* ${zodiac}
+*Edad: ${cekusia}*
+*Signo zodical: ${zodiac}*
 `.trim()
     m.reply(teks)
 }
