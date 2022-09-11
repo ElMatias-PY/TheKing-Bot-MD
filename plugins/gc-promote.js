@@ -21,7 +21,7 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
+conn.reply(m.chat, `*A la orden mi rey🙂*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'promote ' + v)
 handler.tags = ['group']
