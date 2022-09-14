@@ -33,6 +33,4 @@ lastError = e
 conn.sendMessage(m.chat, { document: { url: link }, mimetype: 'video/mp4', fileName: title + `.mp4`}, {quoted: m})
 }
 handler.command = /^ytmp4doc|ytvdoc|ytmp4.2|ytv.2$/i
-handler.exp = 25
-handler.limit = 2
 export default handler

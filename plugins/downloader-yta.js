@@ -34,8 +34,6 @@ if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw '*
 conn.sendFile(m.chat, source, title + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
 }
 handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url>`)
-handler.exp = 25
-handler.limit = 2
 handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)$/i
 export default handler

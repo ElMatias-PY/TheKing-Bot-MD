@@ -33,6 +33,4 @@ lastError = e
 await conn.sendMessage(m.chat, { document: { url: link}, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: m})
 }
 handler.command = /^ytmp3doc|ytadoc|ytmp3.2|yta.2$/i
-handler.exp = 20
-handler.limit = 1
 export default handler
