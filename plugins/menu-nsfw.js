@@ -56,7 +56,5 @@ conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
 handler.command = /^(menunsfw|menuhot|menuhorny|nsfwmenu|menu+18)$/i
-handler.level = 5
-handler.limit = 1
 handler.register = true
 export default  handler
