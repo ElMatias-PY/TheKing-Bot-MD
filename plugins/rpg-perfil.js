@@ -27,4 +27,5 @@ conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽�
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
 handler.command = /^perfil|profile?$/i
+handler.register = true
 export default handler
