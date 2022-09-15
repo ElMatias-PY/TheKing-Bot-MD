@@ -6,4 +6,5 @@ conn.sendFile(m.chat, res, 'error.jpg', `*[ ✔ ] 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃�
 handler.help = ['tiktokfoto'].map(v => v + ' <username>')
 handler.tags = ['downloader']
 handler.command = /^(tiktokfoto|pptiktok)$/i
+handler.register = true
 export default handler
