@@ -19,4 +19,5 @@ await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴 𝚂
 handler.help = ['join [chat.whatsapp.com]']
 handler.tags = ['premium']
 handler.command = /^join|nuevogrupo$/i
+handler.register = true
 export default handler
