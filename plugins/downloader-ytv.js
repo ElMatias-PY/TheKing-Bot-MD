@@ -64,4 +64,5 @@ asDocument: chat.useDocument
 handler.help = ['mp4', 'v'].map(v => 'yt' + v + ` <url>`)
 handler.tags = ['downloader']
 handler.command = /^yt(v|mp4)?$/i
+handler.register = true
 export default handler*/
