@@ -8,4 +8,5 @@ conn.sendFile(m.chat, img, 'error.jpg', `*𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 �
 handler.help = ['', '2'].map(v => 'wallpaper' + v + ' <query>')
 handler.tags = ['downloader']
 handler.command = /^(wallpaper2?)$/i
+handler.register = true
 export default handler
