@@ -14,4 +14,5 @@ conn.sendFile(m.chat, i.url, '', '', m)
 handler.help = ['igstory <username>']
 handler.tags = ['downloader']
 handler.command = ['igstory', 'ighistoria' ]
+handler.register = true
 export default handler
