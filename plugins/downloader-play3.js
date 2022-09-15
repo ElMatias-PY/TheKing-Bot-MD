@@ -23,4 +23,5 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰�
 console.log(e)
 }}
 handler.command = /^play3|playdoc?$/i
+handler.register = true
 export default handler
