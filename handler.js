@@ -388,7 +388,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄 💎 𝐔𝐒𝐀𝐃𝐎')
+                        m.reply(+m.limit + '𝑫𝒊𝒂𝒎𝒂𝒏𝒕𝒆 💎 𝒖𝒔𝒂𝒅𝒐')
                 }
                 break
             }
@@ -444,7 +444,15 @@ export async function handler(chatUpdate) {
             console.log(m, m.quoted, e)
         }
         if (opts['autoread'])
-            await this.readMessages([m.key])
+           //await this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
+		
+	await this.readMessages([m.key])
+	    
+        if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
+        if (!m.fromMem && m.text.match(/(has|ato|ido|ura|des|able|sub|izo|ita|con|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
+        let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "🥰", "😘", "😊", "🥳", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "👾", "🎃", "👻", "🤡", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "💫", "⭐️", "🌟", "✨", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🍭", "🍩", "🍫", "🍧", "🚀", "🚅", "🚄", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "🤎", "💔", "❣️", "💕", "💞", "💓", "💗", "💖", "💘", "💝", "💟", "🌝", "😎", "👻", "🔥", "🖕", "🐦"])
+        this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
+        function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
         
     }
 }
@@ -480,7 +488,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         
 let ftroli = { key: { fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us" }, "message": { orderMessage: { itemCount: 6546464643, status: 200, thumbnail: imagen1, surface: 200, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' }}, contextInfo: { "forwardingScore": 999, "isForwarded": true}, sendEphemeral: true}   
 
-this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? '💫 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾 💫' : '☠ 𝙰𝙳𝙸𝙾𝚂 𝙿𝚄𝚃𝙰 ☠'), (action == 'add' ? '#welcomegc' : '#byegc')], ['♦𝙼𝙴𝙽𝚄♦', `#menu`]], ftroli, {mentions: this.parseMention(text)})
+this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? '🥳 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 🥳' : '☠ 𝑨𝒅𝒊𝒐𝒔 𝒑𝒖𝒕𝒂 ☠'), (action == 'add' ? '#welcomegc' : '#byegc')], ['♦️𝑴𝒆𝒏𝒖♦️', `#menu`]], ftroli, {mentions: this.parseMention(text)})
                 
 /* this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) */
                    }
@@ -530,7 +538,7 @@ export async function callUpdate(callUpdate) {
     for (let nk of callUpdate) {
     if (nk.isGroup == false) {
     if (nk.status == "offer") {
-    let callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] })
+    let callmsg = await this.reply(nk.from, `𝙴𝚈🤬 *@${nk.from.split('@')[0]}*, 𝙻𝙰𝚂 ${nk.isVideo ? '𝚅𝙸𝙳𝙴𝙾𝙻𝙻𝙰𝙼𝙰𝙳𝙰𝚂' : '𝙻𝙻𝙰𝙼𝙰𝙳𝙰𝚂'} 𝙽𝙾 𝙴𝚂𝚃𝙰𝙽 𝙿𝙴𝚁𝙼𝙸𝚃𝙸𝙳𝙰𝚂, 𝚂𝙴𝚁𝙰𝚂 𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝙳𝙾.\n\n𝚂𝙸 𝙰𝙲𝙲𝙸𝙳𝙴𝙽𝚃𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝙻𝙻𝙰𝙼𝙰𝚂𝚃𝙴 𝙿𝙾𝙽𝙶𝙰𝚂𝙴 𝙴𝙽 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙲𝙾𝙽 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝚃𝙴 𝙳𝙴𝚂𝙱𝙻𝙾𝚀𝚄𝙴𝙴!!!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
     await this.updateBlockStatus(nk.from, 'block')
