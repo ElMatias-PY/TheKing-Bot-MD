@@ -1,15 +1,15 @@
 const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
+let pp = './+18.jpg'
 try {
 } catch (e) {
 } finally {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let username = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪
+*ミ💖 𝑯𝒐𝒍𝒂 _${username}_ 💖彡*
+𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒏𝒔𝒇𝒘
 
 ╭──────────────╮
 ║➣ *𝐌𝐄𝐍𝐔 +𝟏𝟖/>*
@@ -48,13 +48,14 @@ let str = `
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner'],
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
+['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
+['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.owner'],
+['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
 handler.command = /^(menunsfw|menuhot|menuhorny|nsfwmenu|menu+18)$/i
+handler.exp = 85
 handler.register = true
 export default  handler

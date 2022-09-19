@@ -9,35 +9,33 @@ try {
 let username = await conn.getName(m.sender)
 let str = `
 *ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢𝗦
-
-┏━━━━━━━━━━━━━┓
-┃ *<𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-┣° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
-┣° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-┣° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
-┣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-┣° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-┣° ඬ⃟💎 _${usedPrefix}infogroup_
-┣° ඬ⃟💎 _${usedPrefix}link_
-┣° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
-┣° ඬ⃟💎 _${usedPrefix}fantasmas_
-┣° ඬ⃟💎 _${usedPrefix}destraba_
-┣ ඬ⃟💎 _${usedPrefix}simular *<welcome / bye / promote / demote>*_
-┗━━━━━━━━━━━━━┛
+𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒅𝒆 𝒈𝒓𝒖𝒑𝒐𝒔
+╭──────────────╮
+║➣ *𝗚𝗥𝗨𝗣𝗢𝗦/>* 
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➣° ඬ⃟💎 _${usedPrefix}add *<numero>*_
+║➣° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
+║➣° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+║➣° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
+║➣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
+║➣° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+║➣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
+║➣° ඬ⃟💎 _${usedPrefix}infogroup_
+║➣° ඬ⃟💎 _${usedPrefix}link_
+║➣° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
+║➣° ඬ⃟💎 _${usedPrefix}fantasmas_
+║➣° ඬ⃟💎 _${usedPrefix}destraba_
+╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner'],
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
+['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
+['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.owner'],
+['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
 ], m)
 }}
 handler.help = ['menugp']

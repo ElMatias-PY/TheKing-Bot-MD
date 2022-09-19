@@ -6,6 +6,7 @@ handler.help = ['videoxxx']
 handler.tags = ['random']
 handler.command = /^videoxxx|vídeoxxx$/i
 handler.limit = 1
+handler.exp = 85
 handler.register = true
 export default handler
 

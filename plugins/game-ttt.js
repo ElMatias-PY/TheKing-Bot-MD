@@ -50,4 +50,6 @@ conn.sendButton(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\
 conn.game[room.id] = room
 }}
 handler.command = /^(tictactoe|ttc|ttt|xo)$/i
+handler.register = true
+handler.exp = 70
 export default handler

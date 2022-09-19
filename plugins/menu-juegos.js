@@ -8,8 +8,8 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let username = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗝𝗨𝗘𝗚𝗢𝗦 
+*ミ💖 𝑯𝒐𝒍𝒂 _${username}_ 💖彡*
+𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒅𝒆 𝒋𝒖𝒆𝒈𝒐𝒔  
 
 ╭──────────────╮
 ║➣ *𝐉𝐔𝐄𝐆𝐎𝐒/>*
@@ -27,8 +27,9 @@ let str = `
 ║➣° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-║➣° ඬ⃟🎖️ _${usedPrefix}follar @tag>*_
-║➣° ඬ⃟🎖️ _${usedPrefix}pfollar @tag>*_
+║➣° ඬ⃟🎖️ _${usedPrefix}follar *<nombre> / @tag>*_
+║➣° ඬ⃟🎖️ _${usedPrefix}pfollar *<nombre> / @tag>*_
+║➣° ඬ⃟🎖️ _${usedPrefix}minovia/o *<nombre> / @tag>*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}ship_
 ║➣° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
@@ -47,14 +48,13 @@ let str = `
 ║➣° ඬ⃟🎖️ _${usedPrefix}cancion *adivina el nombre de la canción*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}ñengo *adivinar canción de ñengo*_
 ║➣° ඬ⃟🎖️ _${usedPrefix}pista *pista del nombre de la canción*_
-║➣° ඬ⃟🎖️ _${usedPrefix}acertijo*_
-╰──────────────╯
+║➣° ඬ⃟🎖️ _${usedPrefix}acertijo_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner'],
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
+['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
+['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.owner'],
+['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
