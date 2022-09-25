@@ -18,7 +18,7 @@ try { res = await tts(text, lang) }
 catch (e) {
 m.reply(e + '')
 text = args.join(' ')
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝚃𝙴𝚇𝚃𝙾 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁 𝙰 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} es Hola Mundo*`
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐞𝐥 𝐭𝐞𝐱𝐭𝐨 𝐪𝐮𝐞 𝐪𝐮𝐢𝐞𝐫𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐫 𝐚 𝐧𝐨𝐭𝐚 𝐝𝐞 𝐯𝐨𝐳, 𝐄𝐣𝐞𝐦𝐩𝐥𝐨: ${usedPrefix + command} es Hola gilipolla*`
 res = await tts(text, defaultLang)
 } finally {
 if (res) conn.sendFile(m.chat, res, 'tts.opus', null, m, true)

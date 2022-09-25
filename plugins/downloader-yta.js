@@ -3,11 +3,11 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-if (!args || !args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝙻𝙸𝙽𝙺 𝙳𝙴 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*`
-conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*\n\n*◉ Sɪ Sᴜ ᴀᴜᴅɪᴏ ɴᴏ ᴇs ᴇɴᴠɪᴀᴅᴏ, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.1 ᴏ #ytmp3doc ◉*`, m, {
+if (!args || !args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝐈𝐧𝐬𝐞𝐫𝐭𝐞 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐦𝐚𝐬 𝐞𝐥 𝐞𝐧𝐥𝐚𝐜𝐞/𝐥𝐢𝐧𝐤 𝐝𝐞 𝐮𝐧 𝐯𝐢𝐝𝐞𝐨 𝐝𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞*`
+conn.reply(m.chat, `*⏰ 𝑆𝑒 𝑒𝑠𝑡𝑎 𝑝𝑟𝑜𝑐𝑒𝑠𝑎𝑛𝑑𝑜 𝑠𝑢 𝑣𝑖𝑑𝑒𝑜...⏰*\n\n*◉ Sɪ Sᴜ ᴀᴜᴅɪᴏ ɴᴏ ᴇs ᴇɴᴠɪᴀᴅᴏ, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.1 ᴏ #ytmp3doc ◉*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝚁𝙴𝙿𝚁𝙾𝙳𝚄𝙲𝚃𝙾𝚁 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾',
-body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',         
+body: 'ʙʏ ᴛʜᴇ ᴋɪɴɢ ﹣ ʙᴏᴛ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://instagram.com/matiass.zzz`}}})
 let chat = global.db.data.chats[m.chat]

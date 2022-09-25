@@ -22,8 +22,8 @@ let buttonMessage= {
 'caption': texto1,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, 
-{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙳𝙾𝙽𝙰𝚁'}, type: 1}],
+{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝐌𝐄𝐍𝐔'}, type: 1}, 
+{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝐃𝐎𝐍𝐀𝐑 '}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
 handler.command = ['sc','script']

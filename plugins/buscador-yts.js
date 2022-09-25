@@ -1,6 +1,6 @@
 import { youtubeSearch } from '@bochilteam/scraper'
 let handler = async (m, { text }) => {
-if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙾 𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*'
+if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐚𝐥𝐠𝐮𝐧 𝐯𝐢𝐝𝐞𝐨 𝐨 𝐜𝐚𝐧𝐚𝐥 𝐝𝐞 𝐘𝐨𝐮𝐭𝐮𝐛𝐞*'
 const { video, channel } = await youtubeSearch(text)
 let teks = [...video, ...channel].map(v => {
 switch (v.type) {

@@ -12,30 +12,30 @@ let str = `
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦 
 
 ╭──────────────╮
-║➣ *𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒/>*
+║➤ *𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➣° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}apkdone *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}apkgoogle *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}apkmody *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}apkshub *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}happymod *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}hostapk *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}revdl *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}toraccino *<texto>*_
-║➣° ඬ⃟🔍 _${usedPrefix}uapkpro *<texto>*_
+║➤ 🔍 _${usedPrefix}stickersearch *<texto>*_
+║➤ 🔍 _${usedPrefix}xnxxsearch *<texto>*_
+║➤ 🔍 _${usedPrefix}animeinfo *<texto>*_
+║➤ 🔍 _${usedPrefix}google *<texto>*_
+║➤ 🔍 _${usedPrefix}letra *<texto>*_
+║➤ 🔍 _${usedPrefix}wikipedia *<texto>*_
+║➤ 🔍 _${usedPrefix}ytsearch *<texto>*_
+║➤ 🔍 _${usedPrefix}apkdone *<texto>*_
+║➤ 🔍 _${usedPrefix}apkgoogle *<texto>*_
+║➤ 🔍 _${usedPrefix}apkmody *<texto>*_
+║➤ 🔍 _${usedPrefix}apkshub *<texto>*_
+║➤ 🔍 _${usedPrefix}happymod *<texto>*_
+║➤ 🔍 _${usedPrefix}hostapk *<texto>*_
+║➤ 🔍 _${usedPrefix}revdl *<texto>*_
+║➤ 🔍 _${usedPrefix}toraccino *<texto>*_
+║➤ 🔍 _${usedPrefix}uapkpro *<texto>*_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙸𝚂𝚃𝙰𝚂 🗒️', '.menu'],
-['🥵 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 🥵', '.owner'],
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '.donar']
+['🗒️ 𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓𝐀𝐒 🗒️', '.menu'],
+['🥵 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🥵', '.owner'],
+['📮 𝐃𝐎𝐍𝐀𝐑 📮', '.donar']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']

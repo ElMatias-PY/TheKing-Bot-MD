@@ -20,19 +20,19 @@ let speed = neww - old
 let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *Matias*
-╠➥ [#️⃣] 𝙽𝙾° 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *wa.me/595985958156*
-╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
-╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
-╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
-╠➥ [💡] 𝙲𝙷𝙰𝚃𝚂 𝚃𝙾𝚃𝙰𝙻𝙴𝚂: *${chats.length}* 
-╠➥ [🚀] 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳: *${uptime}*
-╠➥ [🎩] 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
-╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
+╠➥ [🤴🏻] *CREADOR:* *Matias*
+╠➥ [#️⃣] *N° DEL CREADOR:* *wa.me/595985958156*
+╠➥ [🎳] *PREFIJO:* *${usedPrefix}*
+╠➥ [🔐] *CHATS PRIVADOS:* *${chats.length - groups.length}*
+╠➥ [🦜] *CHATS DE GRUPOS:* *${groups.length}* 
+╠➥ [💡] *CHATS TOTALES:* *${chats.length}* 
+╠➥ [🚀] *ACTIVIDAD:* *${uptime}*
+╠➥ [🎩] *USUARIOS:* *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
+╠➥ [👨‍🦯] *VELOCIDAD*
 ╠  *${speed}* 
 ╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
-╠➥ [☑️] 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
-╠➥ [❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
+╠➥ [☑️] *AUTOREAD:* ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+╠➥ [❗] *RESTRICT:* ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
 ╠
 ╠═〘 𝐓𝐡𝐞 𝐊𝐢𝐧𝐠 𝐁𝐨𝐭 〙 ═
 `.trim() 

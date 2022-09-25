@@ -1,10 +1,10 @@
 let handler = async (m, { conn, participants }) => {
-  if (!global.db.data.settings[conn.user.jid].restrict) throw `𝙀𝙎𝙏𝘼 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊\n#on restrict | #off restrict\n𝙀𝙇 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊 𝘿𝙀𝘽𝙀 𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`
-  if (!m.mentionedJid[0] && !m.quoted) throw 'Etiqueta a alguien del grupo para eliminarlo'
+  if (!global.db.data.settings[conn.user.jid].restrict) throw `𝐄𝐬𝐭𝐚 𝐫𝐞𝐬𝐭𝐫𝐢𝐧𝐠𝐢𝐝𝐨 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨\n#enable restrict | #disable restrict\n𝐄𝐥 𝐩𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨 𝐝𝐞𝐛𝐞 𝐚𝐜𝐭𝐢𝐯𝐚𝐫 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨`
+  if (!m.mentionedJid[0] && !m.quoted) throw '𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐚 𝐮𝐧𝐚 𝐩𝐞𝐫𝐬𝐨𝐧𝐚 𝐩𝐚𝐫𝐚 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐥𝐨'
   let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
   let owr = m.chat.split`-`[0]
   await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
-  m.reply(`✅𝚂𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙾 𝙰 𝙻𝙰 𝙿𝚄𝚃𝙰 𝙳𝙴 *@${user.split('@')[0]}*`, null, { mentions: [user] })
+  m.reply(`𝐒𝐞 𝐞𝐥𝐢𝐦𝐢𝐧𝐨 𝐚 𝐥𝐚 𝐩𝐞𝐫𝐫𝐚 𝐝𝐞 *@${user.split('@')[0]}*`, null, { mentions: [user] })
 }
 
 handler.help = ['kick']

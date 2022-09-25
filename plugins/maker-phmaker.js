@@ -3,15 +3,15 @@ import uploadImage from '../lib/uploadImage.js'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (!mime) throw '*[❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 / 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽*'
-if (!/image\/(jpe?g|png)/.test(mime)) throw `*[❗] 𝙴𝙻 𝚃𝙸𝙿𝙾 𝙳𝙴 𝙰𝚁𝙲𝙷𝙸𝚅𝙾 ${mime} 𝙽𝙾 𝙴𝚂 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾, 𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙴 𝚀𝚄𝙴 𝙳𝙴𝙱𝙴 𝚂𝙴𝚁 𝙸𝙼𝙰𝙶𝙴𝙽, 𝙹𝙿𝙶, 𝙹𝙿𝙴𝙶 𝙾 𝙿𝙽𝙶*`
-if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ¿𝙲𝙾𝙼𝙾 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾?*
+if (!mime) throw '*[❗] 𝐑𝐞𝐬𝐩𝐨𝐧𝐝𝐚 /𝐞𝐭𝐢𝐪𝐮𝐞𝐭𝐞 𝐚 𝐮𝐧𝐚 𝐢𝐦𝐚𝐠𝐞𝐧*'
+if (!/image\/(jpe?g|png)/.test(mime)) throw `*[❗] 𝐄𝐥 𝐭𝐢𝐩𝐨 𝐝𝐞 𝐚𝐫𝐜𝐡𝐢𝐯𝐨 ${mime} 𝐧𝐨 𝐞𝐬 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐨, 𝐫𝐞𝐜𝐮𝐞𝐫𝐝𝐞 𝐪𝐮𝐞 𝐝𝐞𝐛𝐞 𝐬𝐞𝐫 𝐢𝐦𝐚𝐠𝐞𝐧, 𝐉𝐏𝐆, 𝐉𝐏𝐄𝐆 𝐎 𝐏𝐍𝐆*`
+if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ¿𝐂𝐨𝐦𝐨 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨?*
 —◉ #phmaker (opcion) <responder / etiquetar a una imagen>
 
-*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*
+*𝐄𝐣𝐞𝐦𝐩𝐥𝐨:*
 —◉ ${usedPrefix + command} artist_in_the_dark <responder / etiquetar a una imagen>
 
-*< 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂 />*
+*< 𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗢𝗣𝗖𝗜𝗢𝗡𝗘𝗦 />*
 ° ඬ⃟💫 ${usedPrefix + command} 2colors-canvas
 ° ඬ⃟💫 ${usedPrefix + command} 3d-wall
 ° ඬ⃟💫 ${usedPrefix + command} 100_dollars
@@ -444,8 +444,8 @@ let img = await q.download?.()
 let url = await uploadImage(img)
 let images = `https://violetics.pw/api/photomaker/${encodeURIComponent(text)}?apikey=beta&image=${encodeURIComponent(url)}`
 let caption = `*⎔┉━「 𝐏𝐇𝐌𝐀𝐊𝐄𝐑 」━┉⎔*
-*💟 𝙴𝙵𝙴𝙲𝚃𝙾:* ${text}`
-conn.sendButton(m.chat, caption, wm, images, [['💫 𝙼𝙰𝚂 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂 💫', `${usedPrefix}phmakerlist`]], m)
+*💟 𝐄𝐟𝐞𝐜𝐭𝐨:* ${text}`
+conn.sendButton(m.chat, caption, wm, images, [['💫 𝐌𝐀𝐒 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒 💫', `${usedPrefix}phmakerlist`]], m)
 }
 handler.command = /^(phmaker|phmarker|phmarke|phmake)$/i
 export default handler
