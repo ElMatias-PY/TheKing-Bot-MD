@@ -2,10 +2,10 @@ let handler = async (m, { conn, text }) => {
 let who
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text
 else who = m.chat
-if (!who) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙰𝙶𝚁𝙴𝙶𝙰𝚁 𝙰 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*`
-if (global.prems.includes(who.split`@`[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝙳𝙾 𝚈𝙰 𝙴𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*'
+if (!who) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝐈𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 @𝐭𝐚𝐠 𝐝𝐞 𝐥𝐚 𝐩𝐞𝐫𝐬𝐨𝐧𝐚 𝐪𝐮𝐞 𝐝𝐞𝐬𝐞𝐞 𝐚𝐠𝐫𝐞𝐠𝐚𝐫 𝐚 𝐥𝐨𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐩𝐫𝐞𝐦𝐢𝐮𝐦*`
+if (global.prems.includes(who.split`@`[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝐄𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚𝐝𝐨 𝐲𝐚 𝐞𝐬 𝐩𝐫𝐞𝐦𝐢𝐮𝐦*'
 global.prems.push(`${who.split`@`[0]}`)
-let textprem = `*[❗𝐈𝐍𝐅𝐎❗] @${who.split`@`[0]} 𝙰𝙷𝙾𝚁𝙰 𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼, 𝙽𝙾 𝚃𝙴𝙽𝙳𝚁𝙰 𝙻𝙸𝙼𝙸𝚃𝙴𝚂 𝙰𝙻 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*`
+let textprem = `*[❗𝐈𝐍𝐅𝐎❗] @${who.split`@`[0]} 𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐩𝐫𝐞𝐦𝐢𝐮𝐦, 𝐧𝐨 𝐭𝐞𝐧𝐝𝐫𝐚 𝐥𝐢𝐦𝐢𝐭𝐞𝐬 𝐚𝐥 𝐮𝐬𝐚𝐫 𝐞𝐥 𝐁𝐨𝐭*`
 m.reply(textprem, null, { mentions: conn.parseMention(textprem) })
 }
 handler.help = ['addprem <@user>']

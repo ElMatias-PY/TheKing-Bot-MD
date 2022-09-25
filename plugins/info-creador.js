@@ -2,8 +2,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/595985958156*
-*—◉ 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 : https://instagram.com/matiass.zzz*
+*—◉ 𝐄𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫 𝐞𝐬 wa.me/595985958156*
 `.trim()   
 let buttonMessage= {
 'document': { url: `https://instagram.com/matiass.zzz` },
@@ -25,8 +24,8 @@ let buttonMessage= {
 'caption': text,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, 
-{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙳𝙾𝙽𝙰𝚁'}, type: 1}],
+{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝐌𝐄𝐍𝐔'}, type: 1}, 
+{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝐃𝐎𝐍𝐀𝐑'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑴𝒂𝒕𝒊𝒂𝒔 👑;;;\nFN:𝑴𝒂𝒕𝒊𝒂𝒔 👑\nORG:𝑴𝒂𝒕𝒊𝒂𝒔 👑\nTITLE:\nitem1.TEL;waid=595985958156:+595 985 958 156\nitem1.X-ABMati:𝑴𝒂𝒕𝒊𝒂𝒔 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝑩𝒓𝒖𝒏𝒐 𝑴𝒂𝒕𝒊𝒂𝒔 👑\nEND:VCARD`

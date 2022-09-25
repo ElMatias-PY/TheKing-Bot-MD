@@ -9,14 +9,14 @@ let isClose = { // Switch Case Like :v
 }[(args[0] || '')]
 if (isClose === undefined)
 throw `
-*[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
+*[❗] 𝐅𝐎𝐑𝐌𝐀𝐓𝐎 𝐄𝐑𝐑𝐎𝐍𝐄𝐎!!*
 
-*┏━━━❲ ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ ❳━━━┓* 
+*┏━━━❲ ✨𝐄𝐉𝐄𝐌𝐏𝐋𝐎✨ ❳━━━┓* 
 *┠┉↯ ${usedPrefix + command} abrir*
 *┠┉↯ ${usedPrefix + command} cerrar*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
-{m.reply('*[ ✔ ] 𝙶𝚁𝚄𝙿𝙾 𝙲𝙾𝙽𝙵𝙸𝙶𝚄𝚁𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴*')}
+{m.reply('*[ ✔ ] 𝐆𝐑𝐔𝐏𝐎 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐃𝐎 𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐀𝐌𝐄𝐍𝐓𝐄*')}
 }
 handler.help = ['group open / close', 'grupo abrir / cerrar']
 handler.tags = ['group']

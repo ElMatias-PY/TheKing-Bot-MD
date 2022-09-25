@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 let handler = async function (m, { text, usedPrefix }) {
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
 let user = global.db.data.users[m.sender]
-if (user.registered === true) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙷𝙴𝚈! 𝚈𝙰 𝙴𝚂𝚃𝙰𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾*\n\n*𝚀𝚄𝙸𝙴𝚁𝙴𝚂 𝚀𝚄𝙸𝚃𝙰𝚁 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾? 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}unreg <numero de serie>*\n\n*𝚂𝙸 𝙽𝙾 𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙰𝚂 𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝙿𝚄𝙴𝙳𝙴𝚂 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}myns*`
+if (user.registered === true) throw `*[❗𝐈𝐍𝐅𝐎❗]𝐇𝐞𝐲, 𝐲𝐚 𝐞𝐬𝐭𝐚𝐬 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨*\n\n*𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐪𝐮𝐢𝐭𝐚𝐫 𝐭𝐮 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨? 𝐮𝐬𝐚 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix}unreg <numero de serie>*\n\n*𝐒𝐢 𝐧𝐨 𝐫𝐞𝐜𝐮𝐞𝐫𝐝𝐨 𝐬𝐮 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐬𝐞𝐫𝐢𝐞 𝐩𝐮𝐞𝐝𝐞𝐬 𝐮𝐬𝐚𝐫 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix}myns*`
 let name = conn.getName(m.sender)
 let age = Math.floor(Math.random() * 41)
 age = parseInt(age)
@@ -14,13 +14,13 @@ let sn = createHash('md5').update(m.sender).digest('hex')
 let caption = `┏┅ ━━━━━━━━━━━━ ┅ ━
 ┇「 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 」
 ┣┅ ━━━━━━━━━━━━ ┅ ━
-┃ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
-┃ *𝙴𝙳𝙰𝙳:* ${age} años
-┃ *𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+┃ *𝐍𝐎𝐌𝐁𝐑𝐄:* ${name}
+┃ *𝐄𝐃𝐀𝐃:* ${age} años
+┃ *𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐒𝐄𝐑𝐈𝐄:* 
 ┃ ${sn}
 ┗┅ ━━━━━━━━━━━━ ┅ ━`
 let author = global.author
-conn.sendButton(m.chat, caption, `¡𝚃𝚄 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴 𝚃𝙴 𝚂𝙴𝚁𝚅𝙸𝚁𝙰 𝙿𝙾𝚁 𝚂𝙸 𝙳𝙴𝚂𝙴𝙰𝚂 𝙱𝙾𝚁𝚁𝙰𝚁 𝚃𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙴𝙽 𝙴𝙻 𝙱𝙾𝚃!\n${author}`, [['¡¡𝙰𝙷𝙾𝚁𝙰 𝚂𝙾𝚈 𝚄𝙽 𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙳𝙾/𝙰!!', '/profile']], m)
+conn.sendButton(m.chat, caption, `𝐓𝐮 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐬𝐞𝐫𝐢𝐞 𝐭𝐞 𝐬𝐞𝐫𝐯𝐢𝐫𝐚 𝐬𝐢 𝐪𝐮𝐢𝐞𝐫𝐞𝐬 𝐪𝐮𝐢𝐭𝐚𝐫 𝐭𝐮 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐨 𝐞𝐧 𝐞𝐥 𝐁𝐨𝐭\n${author}`, [['¡¡𝐀𝐇𝐎𝐑𝐀 𝐒𝐎𝐘 𝐔𝐍 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐃𝐎!!', '/profile']], m)
 global.db.data.users[m.sender].money += 10000
 global.db.data.users[m.sender].exp += 10000
 }

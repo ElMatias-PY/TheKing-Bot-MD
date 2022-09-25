@@ -1,8 +1,11 @@
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, args }) => {
-if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝙻𝙸𝙽𝙺 𝙳𝙴 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*'
-await m.reply(`*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ...⏳_*\n\n*◉ Sɪ Sᴜ ᴠɪᴅᴇᴏ ɴᴏ ᴇs ᴇɴᴠɪᴀᴅᴏ, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`)
+
+await conn.sendMessage(m.chat, { react: { text: '⏰', key: m.key } })
+
+if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝐈𝐧𝐬𝐞𝐫𝐭𝐞 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐦𝐚𝐬 𝐞𝐥 𝐞𝐧𝐥𝐚𝐜𝐞/𝐥𝐢𝐧𝐤 𝐝𝐞 𝐮𝐧 𝐯𝐢𝐝𝐞𝐨 𝐝𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞*'
+await m.reply(`*⏰ 𝑆𝑒 𝑒𝑠𝑡𝑎 𝑝𝑟𝑜𝑐𝑒𝑠𝑎𝑛𝑑𝑜 𝑠𝑢 𝑣𝑖𝑑𝑒𝑜...⏰*\n\n*◉ 𝑆𝑖 𝑠𝑢 𝑣𝑖𝑑𝑒𝑜 𝑛𝑜 𝑒𝑠 𝑒𝑛𝑣𝑖𝑎𝑑𝑜, 𝑝𝑟𝑢𝑒𝑏𝑒 𝑢𝑠𝑎𝑛𝑑𝑜 𝑒𝑙 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`)
 try {
 let qu = args[1] || '360'
 let q = qu + 'p'
@@ -11,9 +14,9 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v)).catch(async
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝚃𝙸𝚃𝚄𝙻𝙾: ${ttl}\n▢ 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾: ${size}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝐓𝐈𝐓𝐔𝐋𝐎: ${ttl}\n▢ 𝐏𝐄𝐒𝐎 𝐃𝐄𝐋 𝐕𝐈𝐃𝐄𝐎: ${size}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {
-await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾*', m)}
+await conn.reply(m.chat, '*[❗] 𝐄𝐫𝐫𝐨𝐫, 𝐧𝐨 𝐟𝐮𝐞 𝐩𝐨𝐬𝐢𝐛𝐥𝐞 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫 𝐞𝐥 𝐯𝐢𝐝𝐞𝐨*', m)}
 }
 handler.command = /^getvid|yt(v|mp4)?$/i
 export default handler

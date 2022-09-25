@@ -8,41 +8,41 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let username = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝑯𝒐𝒍𝒂 _${username}_ 💖彡*
-𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒅𝒆 𝒔𝒕𝒊𝒄𝒌𝒆𝒓𝒔 
+*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
+𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 
 
 ╭──────────────╮
-║➣ *𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦/>*
+║➤ *𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➣° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
-║➣° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
-║➣° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
-║➣° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
-║➣° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-║➣° ඬ⃟👽 _${usedPrefix}scircle *<responder a imagen>*_
-║➣° ඬ⃟👽 _${usedPrefix}sremovebg *<responder a imagen>*_
-║➣° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
-║➣° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}attp2 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}attp3 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}ttp2 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}ttp3 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}ttp4 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}ttp5 *<texto>*_
-║➣° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
-║➣° ඬ⃟👽 _${usedPrefix}slap *<@tag>*_
-║➣° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
-║➣° ඬ⃟👽 _${usedPrefix}dado_
-║➣° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
-║➣° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
-║➣° ඬ⃟👽 _${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_
+║➤ 👽 _${usedPrefix}sticker *<responder a imagen o video>*_
+║➤ 👽 _${usedPrefix}sticker *<enlace / link / url>*_
+║➤ 👽 _${usedPrefix}s *<responder a imagen o video>*_
+║➤ 👽 _${usedPrefix}s *<enlace / link / url>*_
+║➤ 👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+║➤ 👽 _${usedPrefix}scircle *<responder a imagen>*_
+║➤ 👽 _${usedPrefix}sremovebg *<responder a imagen>*_
+║➤ 👽 _${usedPrefix}semoji *<tipo> <emoji>*_
+║➤ 👽 _${usedPrefix}attp *<texto>*_
+║➤ 👽 _${usedPrefix}attp2 *<texto>*_
+║➤ 👽 _${usedPrefix}attp3 *<texto>*_
+║➤ 👽 _${usedPrefix}ttp *<texto>*_
+║➤ 👽 _${usedPrefix}ttp2 *<texto>*_
+║➤ 👽 _${usedPrefix}ttp3 *<texto>*_
+║➤ 👽 _${usedPrefix}ttp4 *<texto>*_
+║➤ 👽 _${usedPrefix}ttp5 *<texto>*_
+║➤ 👽 _${usedPrefix}pat *<@tag>*_
+║➤ 👽 _${usedPrefix}slap *<@tag>*_
+║➤ 👽 _${usedPrefix}kiss *<@tag>*_
+║➤ 👽 _${usedPrefix}dado_
+║➤ 👽 _${usedPrefix}wm *<packname> <author>*_
+║➤ 👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
+║➤ 👽 _${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
-['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.menu'],
-['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
+['🗒️ 𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓𝐀𝐒 🗒️', '.menu'],
+['🥵 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🥵', '.menu'],
+['📮 𝐃𝐎𝐍𝐀𝐑 📮', '.donar']
 ], m)
 }}
 handler.help = ['menustickers']

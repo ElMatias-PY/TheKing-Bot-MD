@@ -8,7 +8,7 @@ await m.reply(global.wait)
     let ar = Object.keys(plugins)
     let ar1 = ar.map(v => v.replace('.js', ''))
     if (!text) throw `uhm... que plugin buscas?\n\nexample:\n${usedPrefix + command} infobot`
-    if (!ar1.includes(text)) return m.reply(`*🗃️ NO ENCONTRADO!*\n==================================\n\n${ar1.map(v => ' ' + v).join`\n`}`)
+    if (!ar1.includes(text)) return m.reply(`*𝐍𝐎 𝐄𝐍𝐂𝐎𝐍𝐓𝐑𝐀𝐃𝐎!!!*\n==================================\n\n${ar1.map(v => ' ' + v).join`\n`}`)
     let o
     try {
         o = await exec('cat plugins/' + text + '.js')

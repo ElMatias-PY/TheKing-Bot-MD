@@ -8,61 +8,66 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let username = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝑯𝒐𝒍𝒂 _${username}_ 💖彡*
-𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒅𝒆 𝒄𝒓𝒆𝒂𝒅𝒐𝒓𝒆𝒔 
+*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
+𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗘𝗦 
 
 ╭──────────────╮
-║➣ *𝐎𝐖𝐍𝐄𝐑 𝐘 𝐌𝐎𝐃𝐄𝐑𝐀𝐃𝐎𝐑𝐄𝐒/>*
+║➤ *𝕆𝕎ℕ𝔼ℝ 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➣° ඬ⃟👑 _${usedPrefix}cajafuerte_
-║➣° ඬ⃟👑 _${usedPrefix}enable *restrict*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *restrict*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *autoread*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *autoread*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *public*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *public*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *pconly*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *pconly*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *gconly*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *gconly*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *anticall*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *anticall*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *antiprivado*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *antiprivado*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *antitraba*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *antitraba*_
-║➣° ඬ⃟👑 _${usedPrefix}enable *antiarabes*_
-║➣° ඬ⃟👑 _${usedPrefix}disable *antiarabes*_
-║➣° ඬ⃟👑 _${usedPrefix}spamgp *<link>*
-║➣° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
-║➣° ඬ⃟👑 _${usedPrefix}banchat_
-║➣° ඬ⃟👑 _${usedPrefix}unbanchat_
-║➣° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
-║➣° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
-║➣° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
-║➣° ඬ⃟👑 _${usedPrefix}banlist_
-║➣° ඬ⃟👑 _${usedPrefix}block_
-║➣° ඬ⃟👑 _${usedPrefix}getplugins *<plugins>*
-║➣° ඬ⃟👑 _${usedPrefix}df *<plugins>*
-║➣° ඬ⃟👑 _${usedPrefix}bc *<texto>*_
-║➣° ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
-║➣° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
-║➣° ඬ⃟👑 _${usedPrefix}añadirdiamantes *<@tag>* *<cantidad>*_
-║➣° ඬ⃟👑 _${usedPrefix}añadirxp *<@tag>* *<cantidad>*_
-║➣° ඬ⃟👑 _${usedPrefix}añadirtokens *<@tag>* *<cantidad>*_
-║➣° ඬ⃟👑 _${usedPrefix}cleartpm_
-║➣° ඬ⃟👑 _${usedPrefix}restart_
-║➣° ඬ⃟👑 _${usedPrefix}update_
-║➣° ඬ⃟👑 _${usedPrefix}traba1_ 
-║➣° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
-║➣° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
-║➣° ඬ⃟👑 _${usedPrefix}listprem_
+║➤ 👑 _${usedPrefix}> <funcion>*_
+║➤ 👑 _${usedPrefix}=> <funcion>*_
+║➤ 👑 _${usedPrefix}$ <funcion>*_
+║➤ 👑 _${usedPrefix}cajafuerte_
+║➤ 👑 _${usedPrefix}enable *restrict*_
+║➤ 👑 _${usedPrefix}disable *restrict*_
+║➤ 👑 _${usedPrefix}enable *autoread*_
+║➤ 👑 _${usedPrefix}disable *autoread*_
+║➤ 👑 _${usedPrefix}enable *public*_
+║➤ 👑 _${usedPrefix}disable *public*_
+║➤ 👑 _${usedPrefix}enable *pconly*_
+║➤ 👑 _${usedPrefix}disable *pconly*_
+║➤ 👑 _${usedPrefix}enable *gconly*_
+║➤ 👑 _${usedPrefix}disable *gconly*_
+║➤ 👑 _${usedPrefix}enable *anticall*_
+║➤ 👑 _${usedPrefix}disable *anticall*_
+║➤ 👑 _${usedPrefix}enable *antiprivado*_
+║➤ 👑 _${usedPrefix}disable *antiprivado*_
+║➤ 👑 _${usedPrefix}enable *antitraba*_
+║➤ 👑 _${usedPrefix}disable *antitraba*_
+║➤ 👑 _${usedPrefix}enable *antiarabes*_
+║➤ 👑 _${usedPrefix}disable *antiarabes*_
+║➤ 👑 _${usedPrefix}spamgp *<link>*_
+║➤ 👑 _${usedPrefix}msg *<texto>*_
+║➤ 👑 _${usedPrefix}banchat_
+║➤ 👑 _${usedPrefix}unbanchat_
+║➤ 👑 _${usedPrefix}banuser *<@tag>*_
+║➤ 👑 _${usedPrefix}unbanuser *<@tag>*_
+║➤ 👑 _${usedPrefix}banuser *<@tag>*_
+║➤ 👑 _${usedPrefix}banlist_
+║➤ 👑 _${usedPrefix}block_
+║➤ 👑 _${usedPrefix}getplugins *<plugin>*_
+║➤ 👑 _${usedPrefix}df *<plugin>*_
+║➤ 👑 _${usedPrefix}bc *<texto>*_
+║➤ 👑 _${usedPrefix}bcchats *<texto>*_
+║➤ 👑 _${usedPrefix}bcgc *<texto>*_
+║➤ 👑 _${usedPrefix}añadirdiamantes *<@tag>* *<cantidad>*_
+║➤ 👑 _${usedPrefix}añadirxp *<@tag>* *<cantidad>*_
+║➤ 👑 _${usedPrefix}cleartpm_
+║➤ 👑 _${usedPrefix}restart_
+║➤ 👑 _${usedPrefix}update_
+║➤ 👑 _${usedPrefix}traba1_ 
+║➤ 👑 _${usedPrefix}addprem *<@tag>*_
+║➤ 👑 _${usedPrefix}delprem *<@tag>*_
+║➤ 👑 _${usedPrefix}listprem_
+║➤ 👑 _${usedPrefix}listcmd_
+║➤ 👑 _${usedPrefix}addcmd *<texto> <responder> a sticker/imagen>*_
+║➤ 👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
-['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.owner'],
-['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
+['🗒️ 𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓𝐀𝐒 🗒️', '.menu'],
+['🥵 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🥵', '.owner'],
+['📮 𝐃𝐎𝐍𝐀𝐑 📮', '.donar']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']

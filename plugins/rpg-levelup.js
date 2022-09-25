@@ -8,9 +8,9 @@ let handler = async (m, { conn }) => {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
         throw `
 ┌───⊷ *NIVEL*
-▢ Nombre : *${name}*
-▢ Nivel : *${user.level}*
-▢ XP : *${user.exp - min}/${xp}*
+▢  : *${name}*
+▢  : *${user.level}*
+▢  : *${user.exp - min}/${xp}*
 └──────────────
 
 Te falta *${max - user.exp}* de *XP* para subir de nivel
@@ -22,8 +22,8 @@ Te falta *${max - user.exp}* de *XP* para subir de nivel
         let teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`
         let str = `
 ┌─⊷ *LEVEL UP*
-▢ Nivel anterior : *${before}*
-▢ Nivel actual : *${user.level}*
+▢   : *${before}*
+▢   : *${user.level}*
 └──────────────
 
 *_Cuanto más interactúes con los bots, mayor será tu nivel_*

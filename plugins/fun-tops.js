@@ -34,9 +34,9 @@ let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
 
-//m.reply(conn.sendHydrated(m.chat, `*SON MUY GAYS!!* 🌈`, wm, null, md, '𝙏𝙝𝙚 𝙆𝙞𝙣𝙜 - 𝘽𝙤𝙩', null, null, [
-//['𝙾𝚃𝚁𝙰 𝚅𝙴𝚉', `${usedPrefix + command}`],
-//['𝙼𝙴𝙽𝚄', '/menu']
+//m.reply(conn.sendHydrated(m.chat, `*SON MUY GAYS!!* 🌈`, wm, null, md, '𝐓𝐡𝐞 𝐊𝐢𝐧𝐠 - 𝐁𝐨𝐭', null, null, [
+//['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙', `${usedPrefix + command}`],
+//[𝐌𝐄𝐍𝐔', '/menu']
 //], m))
    
 //contextInfo: { 
@@ -62,9 +62,9 @@ let top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
 *_10.- 🌷 ${user(j)}_* 🌷`
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
-//conn.sendHydrated(m.chat, top, wm, null, md, '𝙏𝙝𝙚 𝙆𝙞𝙣𝙜 - 𝘽𝙤𝙩', null, null, [
-//['𝙾𝚃𝚁𝙰 𝚅𝙴𝚉', `${usedPrefix + command}`],
-//['𝙼𝙴𝙽𝚄', '/menu']
+//conn.sendHydrated(m.chat, top, wm, null, md, '𝐓𝐡𝐞 𝐊𝐢𝐧𝐠 - 𝐁𝐨𝐭', null, null, [
+//['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙', `${usedPrefix + command}`],
+//['𝐌𝐄𝐍𝐔', '/menu']
 //], m, null, {
 //contextInfo: {
 //mentionedJid: [a, b, c, d, e, f, g, h, i, j]
@@ -336,22 +336,9 @@ Tan enamorados 😍, para cuando la familia 🥰
 *_5.- ${user(i)} 💘 ${user(j)}_* 
 Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
-
-if (command == 'toptrios') {
-let top = `*_🔥🥵 Top 3 mejores trios del grupo 🥵🔥_*
-    
-*_1.- ${user(a)}, ${user(b)} y ${user(c)}_*
-Este trio es de lo mejores, deberían hacer un vídeo nopor juntos 🔥🥵
-
-*_2.- ${user(d)}, ${user(e)} y {user(f)}_*
-Uff, que trío, cómo me gustaría verlos con sus hijos
-
-*_3.- ${user(g)}, ${user(h)} y ${user(i)}_*
-Que lindos se ven juntos, deberían de hacer miles de hijos 😍🔥
-m.reply(top, null, { mentions: conn.parseMention(top) })}
   
 }
-handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajeros', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas', 'toptrios']
+handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajeros', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas' ]
 handler.tags = ['games']
 handler.group = true
 export default handler  

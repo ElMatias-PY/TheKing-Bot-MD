@@ -5,15 +5,16 @@ else who = m.sender
 let name = conn.getName(who) 
 m.reply(`
 ┌───⊷ 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 ⊶
-▢ *𝙽𝚘𝚖𝚋𝚛𝚎:* ${name}
-▢ *𝙳𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜:* ${global.db.data.users[who].limit}💎
+▢ *𝐍𝐎𝐌𝐁𝐑𝐄:* ${name}
+▢ *𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒:* ${global.db.data.users[who].limit}💎
 └──────────────
-*𝙽𝙾𝚃𝙰:* 
-*𝙿𝚞𝚎𝚍𝚎𝚜 𝚌𝚘𝚖𝚙𝚛𝚊𝚛 𝚍𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜 💎 𝚞𝚜𝚊𝚗𝚍𝚘 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜*
+*𝐍𝐎𝐓𝐀:* 
+*𝐏𝐮𝐞𝐝𝐞𝐬 𝐜𝐨𝐦𝐩𝐫𝐚𝐫 𝐝𝐢𝐚𝐦𝐚𝐧𝐭𝐞𝐬 💎 𝐮𝐬𝐚𝐧𝐝𝐨 𝐥𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬*
 ❏ *${usedPrefix}buy <cantidad>*
 ❏ *${usedPrefix}buyall*`)
 }
 handler.help = ['bal']
 handler.tags = ['xp']
 handler.command = ['bal', 'diamantes', 'diamond', 'balance'] 
+handler.register = true
 export default handler

@@ -9,33 +9,33 @@ try {
 let username = await conn.getName(m.sender)
 let str = `
 *ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
-𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂𝒍 𝒎𝒆𝒏𝒖 𝒅𝒆 𝒈𝒓𝒖𝒑𝒐𝒔
+𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗚𝗥𝗨𝗣𝗢𝗦 
 ╭──────────────╮
-║➣ *𝗚𝗥𝗨𝗣𝗢𝗦/>* 
+║➤ *𝗚𝗥𝗨𝗣𝗢𝗦/>* 
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➣° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-║➣° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
-║➣° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-║➣° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
-║➣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-║➣° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-║➣° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-║➣° ඬ⃟💎 _${usedPrefix}infogroup_
-║➣° ඬ⃟💎 _${usedPrefix}link_
-║➣° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
-║➣° ඬ⃟💎 _${usedPrefix}fantasmas_
-║➣° ඬ⃟💎 _${usedPrefix}destraba_
+║➤ 💎 _${usedPrefix}add *<numero>*_
+║➤ 💎 _${usedPrefix}kick *<@tag>*_
+║➤ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+║➤ 💎 _${usedPrefix}promote *<@tag>*_
+║➤ 💎 _${usedPrefix}demote *<@tag>*_
+║➤ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+║➤ 💎 _${usedPrefix}demote *<@tag>*_
+║➤ 💎 _${usedPrefix}infogroup_
+║➤ 💎 _${usedPrefix}link_
+║➤ 💎 _${usedPrefix}setname *<texto>*_
+║➤ 💎 _${usedPrefix}setdesc *<texto>*_
+║➤ 💎 _${usedPrefix}invocar *<texto>*_
+║➤ 💎 _${usedPrefix}setwelcome *<texto>*_
+║➤ 💎 _${usedPrefix}setbye *<texto>*_
+║➤ 💎 _${usedPrefix}hidetag *<texto>*_
+║➤ 💎 _${usedPrefix}fantasmas_
+║➤ 💎 _${usedPrefix}destraba_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 🗒️', '.menu'],
-['🥵 𝑪𝒓𝒆𝒂𝒅𝒐𝒓 🥵', '.owner'],
-['📮 𝒅𝒐𝒏𝒂𝒓 📮', '.donar']
+['🗒️ 𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓𝐀𝐒 🗒️', '.menu'],
+['🥵 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🥵', '.owner'],
+['📮 𝐃𝐎𝐍𝐀𝐑 📮', '.donar']
 ], m)
 }}
 handler.help = ['menugp']

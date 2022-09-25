@@ -9,21 +9,23 @@ try {
 let username = await conn.getName(m.sender)
 let str = `
 *ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗟𝗢𝗚𝗢𝗦
+𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗘𝗖𝗢𝗡𝗢𝗠𝗜𝗖𝗢
 ╭──────────────╮
-║➤ *𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝕃𝕆𝔾𝕆𝕊/>*
+*ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀ℂ𝔸/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ 🖍️ _${usedPrefix}logos *<efecto> <texto>*_
-║➤ 🖍️ _${usedPrefix}logocorazon *<texto>*_
-║➤ 🖍️ _${usedPrefix}logochristmas *<texto>*_
-║➤ 🖍️ _${usedPrefix}simpcard *<@tag>*_
-║➤ 🖍️ _${usedPrefix}hornycard *<@tag>*_
-║➤ 🖍️ _${usedPrefix}lolice *<@tag>*_
-║➤ 🖍️ _${usedPrefix}ytcomment *<texto>*_
-║➤ 🖍️ _${usedPrefix}phmaker *<opcion><responder a imagen>*_
-║➤ 🖍️ _${usedPrefix}itssostupid_
-║➤ 🖍️ _${usedPrefix}pixelar_
-║➤ 🖍️ _${usedPrefix}blur_
+║➤ 💵 _${usedPrefix}balance_
+║➤ 💵 _${usedPrefix}claim_
+║➤ 💵 _${usedPrefix}lb_
+║➤ 💵 _${usedPrefix}levelup_
+║➤ 💵 _${usedPrefix}myns_
+║➤ 💵 _${usedPrefix}perfil_
+║➤ 💵 _${usedPrefix}work_
+║➤ 💵 _${usedPrefix}minar_
+║➤ 💵 _${usedPrefix}buy_
+║➤ 💵 _${usedPrefix}buyall_
+║➤ 💵 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
+║➤ 💵 _${usedPrefix}verificar_
+║➤ 💵 _${usedPrefix}unreg *<numero de serie>*_
 ╰──────────────╯
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
@@ -34,7 +36,7 @@ conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menuefectos|efectoslogos|efectosdelogos|logosefectos|logodeefecto)$/i
+handler.command = /^(menurpg|rpgmenu|menueconomico|)$/i
 handler.exp = 85
 handler.register = true
 export default  handler
