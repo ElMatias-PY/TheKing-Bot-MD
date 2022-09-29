@@ -14,9 +14,9 @@ let str = `
 ╭──────────────╮
 ║➤ *𝕆𝕎ℕ𝔼ℝ 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ 👑 _${usedPrefix}> <funcion>*_
-║➤ 👑 _${usedPrefix}=> <funcion>*_
-║➤ 👑 _${usedPrefix}$ <funcion>*_
+║➤ 👑 _${usedPrefix}> *<funcion>*_
+║➤ 👑 _${usedPrefix}=> *<funcion>*_
+║➤ 👑 _${usedPrefix}$ *<funcion>*_
 ║➤ 👑 _${usedPrefix}cajafuerte_
 ║➤ 👑 _${usedPrefix}enable *restrict*_
 ║➤ 👑 _${usedPrefix}disable *restrict*_
