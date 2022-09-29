@@ -517,9 +517,9 @@ _(𝑼𝒔𝒐 𝒔𝒊𝒏 𝒑𝒓𝒆𝒇𝒊𝒋𝒐)_
 ╭──────────────╮
 ║➤ *𝕆𝕎ℕ𝔼ℝ 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ 👑 _${usedPrefix}> <funcion>*_
-║➤ 👑 _${usedPrefix}=> <funcion>*_
-║➤ 👑 _${usedPrefix}$ <funcion>*_
+║➤ 👑 _${usedPrefix}> *<funcion>*_
+║➤ 👑 _${usedPrefix}=> *<funcion>*_
+║➤ 👑 _${usedPrefix}$ *<funcion>*_
 ║➤ 👑 _${usedPrefix}cajafuerte_
 ║➤ 👑 _${usedPrefix}enable *restrict*_
 ║➤ 👑 _${usedPrefix}disable *restrict*_
