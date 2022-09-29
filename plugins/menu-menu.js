@@ -409,7 +409,7 @@ let str = `
 ║➤ *_Escirbe las siguientes palabras sin el prefijo_* (#, /, *, .)
 _(𝑼𝒔𝒐 𝒔𝒊𝒏 𝒑𝒓𝒆𝒇𝒊𝒋𝒐)_
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ y🔈 _Quien es tu sempai botsito 7w7_
+║➤ 🔈 _Quien es tu sempai botsito 7w7_
 ║➤ 🔊 _Te diagnostico con gay_
 ║➤ 🔊 _A nadie le importa_
 ║➤ 🔊 _Fiesta del admin_
