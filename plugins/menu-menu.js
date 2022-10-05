@@ -232,8 +232,6 @@ let str = `
 ╭──────────────╮
 ║➤ *𝔾ℝ𝕌ℙ𝕆𝕊/>* 
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ 💎 _${usedPrefix}add *<numero>*_
-║➤ 💎 _${usedPrefix}kick *<@tag>*_
 ║➤ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
 ║➤ 💎 _${usedPrefix}promote *<@tag>*_
 ║➤ 💎 _${usedPrefix}demote *<@tag>*_
@@ -539,6 +537,8 @@ _(𝑼𝒔𝒐 𝒔𝒊𝒏 𝒑𝒓𝒆𝒇𝒊𝒋𝒐)_
 ║➤ 👑 _${usedPrefix}disable *antitraba*_
 ║➤ 👑 _${usedPrefix}enable *antiarabes*_
 ║➤ 👑 _${usedPrefix}disable *antiarabes*_
+║➤ 👑 _${usedPrefix}add *numero*_
+║➤ 👑 _${usedPrefix}kick *<@tag*_
 ║➤ 👑 _${usedPrefix}spamgp *<link>*_
 ║➤ 👑 _${usedPrefix}msg *<texto>*_
 ║➤ 👑 _${usedPrefix}banchat_

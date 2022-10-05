@@ -36,6 +36,8 @@ let str = `
 ║➤ 👑 _${usedPrefix}disable *antitraba*_
 ║➤ 👑 _${usedPrefix}enable *antiarabes*_
 ║➤ 👑 _${usedPrefix}disable *antiarabes*_
+║➤ 👑 _${usedPrefix}add *numero*_
+║➤ 👑 _${usedPrefix}kick *<@tag*_
 ║➤ 👑 _${usedPrefix}spamgp *<link>*_
 ║➤ 👑 _${usedPrefix}msg *<texto>*_
 ║➤ 👑 _${usedPrefix}banchat_

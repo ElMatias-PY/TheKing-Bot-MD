@@ -13,8 +13,6 @@ let str = `
 ╭──────────────╮
 ║➤ *𝗚𝗥𝗨𝗣𝗢𝗦/>* 
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ 💎 _${usedPrefix}add *<numero>*_
-║➤ 💎 _${usedPrefix}kick *<@tag>*_
 ║➤ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
 ║➤ 💎 _${usedPrefix}promote *<@tag>*_
 ║➤ 💎 _${usedPrefix}demote *<@tag>*_

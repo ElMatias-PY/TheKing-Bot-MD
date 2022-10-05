@@ -11,7 +11,7 @@ handler.help = ['kick']
 handler.tags = ['adm']
 handler.command = /^(kick|echar|hechar)$/i
 
-handler.admin = true
+handler.owner
 handler.group = true
 handler.botAdmin = true
 
