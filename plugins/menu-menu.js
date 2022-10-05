@@ -547,7 +547,8 @@ _(𝑼𝒔𝒐 𝒔𝒊𝒏 𝒑𝒓𝒆𝒇𝒊𝒋𝒐)_
 ║➤ 👑 _${usedPrefix}unbanuser *<@tag>*_
 ║➤ 👑 _${usedPrefix}banuser *<@tag>*_
 ║➤ 👑 _${usedPrefix}banlist_
-║➤ 👑 _${usedPrefix}block_
+║➤ 👑 _${usedPrefix}block *<@tag>*_
+║➤ 👑 _${usedPrefix}unblock *<@tag>*_
 ║➤ 👑 _${usedPrefix}getplugins *<plugin>*_
 ║➤ 👑 _${usedPrefix}df *<plugin>*_
 ║➤ 👑 _${usedPrefix}bc *<texto>*_
