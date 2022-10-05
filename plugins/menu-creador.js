@@ -58,7 +58,6 @@ let str = `
 ║➤ 👑 _${usedPrefix}cleartpm_
 ║➤ 👑 _${usedPrefix}restart_
 ║➤ 👑 _${usedPrefix}update_
-║➤ 👑 _${usedPrefix}traba1_ 
 ║➤ 👑 _${usedPrefix}addprem *<@tag>*_
 ║➤ 👑 _${usedPrefix}delprem *<@tag>*_
 ║➤ 👑 _${usedPrefix}listprem_
