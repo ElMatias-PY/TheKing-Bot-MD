@@ -34,7 +34,7 @@ conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 ['📮 𝐃𝐎𝐍𝐀𝐑 📮', '.donar']
 ], m)
 }}
-handler.help = ['menu2', 'help2', '?2', 'menuaudios']
+handler.help = ['rpg', 'helprpg', '?rpg', 'menurpg']
 handler.tags = ['main']
 handler.command = /^(menurpg|rpgmenu|menueconomico|)$/i
 handler.exp = 85
