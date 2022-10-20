@@ -27,6 +27,13 @@ _(𝑼𝒔𝒐 𝒔𝒊𝒏 𝒑𝒓𝒆𝒇𝒊𝒋𝒐)_
 ║➤ 🔊 _Buenos dias_
 ║➤ 🔊 _Buenos tardes_
 ║➤ 🔊 _Buenos noches_
+║➤ 🔊 _Oye mami, yo se que te gusta el pipi_
+║➤ 🔊 _5 dame tu cosita captados en cámara_
+║➤ 🔊 _Ay mi madre el bicho_
+║➤ 🔊 _Mucha paja_
+║➤ 🔊 _Me cago en ti_
+║➤ 🔊 _Hola causas_
+║➤ 🔊 _Manito_
 ║➤ 🔊 _Audio hentai_
 ║➤ 🔊 _Chica lgante_
 ║➤ 🔊 _Feliz navidad_
