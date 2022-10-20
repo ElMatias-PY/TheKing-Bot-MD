@@ -211,6 +211,41 @@ if (!chat.isBanned && chat.audios && m.text.match(/(shitpost)/gi)) {
 let vn = './media/shitpost.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
-   
+
+if (!chat.isBanned && chat.audios && m.text.match(/(dametucosita)/gi)) {    
+let vn = './media/5 dame tu cosita captados en cámara.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
+
+if (!chat.isBanned && chat.audios && m.text.match(/(El bicho|Ay mi madre el bicho)/gi)) {    
+let vn = './media/Ay mi madre el bicho.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(Hola causas|Causas)/gi)) {    
+let vn = './media/Hola causas.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(manito|fuchibol)/gi)) {    
+let vn = './media/Manito, vamos a jugar un fuchibol.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(Manolo|Me cago en ti)/gi)) {    
+let vn = './media/Me cago en ti, me cago en tu madre.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(Mucha paja|Paja)/gi)) {    
+let vn = './media/Mucha paja.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(Oye Mami yo se que te gusta el pipi| Pipi|El pipi)/gi)) {    
+let vn = './media/Oye Mami, yo sé que te gusta el pipi.m4a'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
 return !0 }
 export default handler
