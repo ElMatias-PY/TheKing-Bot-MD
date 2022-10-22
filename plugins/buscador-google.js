@@ -25,5 +25,4 @@ handler.help = ['google', 'googlef'].map(v => v + ' <pencarian>')
 handler.tags = ['internet']
 handler.command = /^googlef?$/i
 handler.exp = 10
-handler.limit = 1
 export default handler
